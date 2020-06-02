@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@components": ["src/components/*"],
+      "@environments": ["src/environments/*"],
+      "@models": ["src/models/*"],
+      "@services": ["src/services/*"],
+      "@views": ["src/views/*"],
+      "@schemas": ["src/schemas/*"],
+      "@constants" : ["src/config/constants/*"] 
+    }
+  },
+  "exclude": ["node_modules", "dist", "build", "public"]
+}
